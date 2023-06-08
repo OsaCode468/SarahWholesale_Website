@@ -7,7 +7,7 @@ export default function ContactHome() {
         shadow="sm"
         p="xl"
         component="a"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        href="/Contact"
         target="_blank"
       >
         <Card.Section>
