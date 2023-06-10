@@ -3,6 +3,7 @@ import { createStyles, Header, Container, Group, Burger, Paper, Transition } fro
 import { useDisclosure } from '@mantine/hooks';
 import logo from "../images/sarah.jpg"
 import {links} from "../data"
+import { Link, useMatch } from 'react-router-dom';
 const HEADER_HEIGHT = 80;
 
 const useStyles = createStyles((theme) => ({
@@ -86,18 +87,17 @@ export default function Header1() {
   const { classes, cx } = useStyles();
 
   const items = links.map((link) => (
-    <a
+    <Link
       key={link.id}
-      href={link.url}
+      to={link.url}
       className={cx(classes.link, { [classes.linkActive]: active === link.url })}
-      onClick={(event) => {
-        event.preventDefault();
+      onClick={() => {
         setActive(link.url);
         close();
       }}
     >
       {link.text}
-    </a>
+    </Link>
   ));
 
   return (

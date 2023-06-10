@@ -11,6 +11,9 @@ import {
   } from '@mantine/core';
   import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconPhoneCall, IconAt, IconMapPin, IconSun } from '@tabler/icons';
   import ContactIcons from './ContactIcons';
+  import Header1 from './Header';
+  import { FooterCentered } from './Footer';
+
   const useStyles = createStyles((theme) => ({
     wrapper: {
       minHeight: 400,
@@ -87,6 +90,7 @@ import {
     ));
   
     return (
+      <>
       <div className={classes.wrapper}>
         <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
           <div>
@@ -127,5 +131,6 @@ import {
           </div>
         </SimpleGrid>
       </div>
+      </>
     );
   }

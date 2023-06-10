@@ -103,6 +103,7 @@ export function HeroHeader() {
               size="xl"
               className={classes.control}
               mt={40}
+              href = "/About"
             >
               Get started
             </Button>

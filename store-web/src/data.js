@@ -3,28 +3,33 @@ import React from "react";
 export const links = [
   {
     id: 1,
-    url: "/Home",
+    url: "/",
     text: "Home",
+    hrf: "#Home"
   },
   {
     id: 2,
     url: "/FAQ",
     text: "FAQ",
+    hrf: "#FAQ"
   },
   {
     id: 3,
-    url: "/AboutUs",
+    url: "/About",
     text: "About",
+    hrf: "#About"
   },
   {
     id: 4,
     url: "/Services",
     text: "Services",
+    hrf: "#Services"
   },
   {
     id: 5,
     url: "/Contact",
     text: "Contact",
+    hrf: "#Contact"
   }
 ];
 

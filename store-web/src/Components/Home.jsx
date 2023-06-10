@@ -11,12 +11,10 @@ import AboutUs from './AboutUs'
 function Home() {
     return (
       <>
-      <Header1/>
       <HeroHeader/>
       <Testimonials/>
       <BusinessHours/>
       <ContactHome/>
-      <FooterCentered/>
       </>
     );
   }

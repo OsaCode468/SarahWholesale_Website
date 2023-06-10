@@ -9,7 +9,8 @@ import {
     Container,
   } from '@mantine/core';
   import { IconDeviceMobile, IconHammer, IconDeviceSim } from '@tabler/icons';
-  
+  import Header1 from './Header';
+  import { FooterCentered } from './Footer';
   const mockdata = [
     {
       title: 'Phones And Acessories',

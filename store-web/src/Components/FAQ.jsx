@@ -7,7 +7,8 @@ import {
     MantineProvider,
   } from '@mantine/core';
   import { IconPlus } from '@tabler/icons';
-  
+  import Header1 from './Header';
+  import { FooterCentered } from './Footer';
   const useStyles = createStyles((theme, _params, getRef) => {
     const icon = getRef('control');
   
@@ -90,6 +91,7 @@ import {
   export default function FAQ() {
     const { classes } = useStyles();
     return (
+      <>
       <MantineProvider inherit theme={{ colorScheme: 'light' }}>
         <div className={classes.wrapper}>
           <Container size="sm">
@@ -137,5 +139,6 @@ import {
           </Container>
         </div>
       </MantineProvider>
+      </>
     );
   }
