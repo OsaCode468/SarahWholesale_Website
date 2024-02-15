@@ -8,7 +8,7 @@ import {
     SimpleGrid,
     Container,
   } from '@mantine/core';
-  import { IconDeviceMobile, IconHammer, IconDeviceSim } from '@tabler/icons';
+  import { IconDeviceMobile, IconHammer, IconDeviceSim } from '@tabler/icons-react';
   import Header1 from './Header';
   import { FooterCentered } from './Footer';
   const mockdata = [

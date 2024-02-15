@@ -6,7 +6,7 @@ import {
     ThemeIcon,
     MantineProvider,
   } from '@mantine/core';
-  import { IconPlus } from '@tabler/icons';
+  import { IconPlus } from '@tabler/icons-react';
   import Header1 from './Header';
   import { FooterCentered } from './Footer';
   const useStyles = createStyles((theme, _params, getRef) => {

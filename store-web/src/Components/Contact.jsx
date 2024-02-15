@@ -9,7 +9,7 @@ import {
     Group,
     ActionIcon,
   } from '@mantine/core';
-  import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconPhoneCall, IconAt, IconMapPin, IconSun } from '@tabler/icons';
+  import { IconBrandTwitter, IconBrandYoutube, IconBrandInstagram, IconPhoneCall, IconAt, IconMapPin, IconSun } from '@tabler/icons-react';
   import ContactIcons from './ContactIcons';
   import Header1 from './Header';
   import { FooterCentered } from './Footer';
