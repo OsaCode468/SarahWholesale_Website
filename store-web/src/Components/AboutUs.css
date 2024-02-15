@@ -1,0 +1,30 @@
+.abouthe{
+    display: flex;
+    color: red;
+    justify-content: center;
+}
+.items{
+    display: flex;
+    align-items: center;
+}
+.writing{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+.image{
+    width: 700px;
+    height: 500px;
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+@media(max-width: 500px){
+    .items{
+        flex: 1 1 100%;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+}
+
