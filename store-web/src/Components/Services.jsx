@@ -15,19 +15,18 @@ import {
     {
       title: 'Phones And Acessories',
       description:
-        'This dust is actually a powerful poison that will even make a pro wrestler sick, Regice cloaks itself with frigid air of -328 degrees Fahrenheit',
+        'At our phone store, we pride ourselves on offering an extensive selection of the latest smartphones and a comprehensive range of accessories to enhance your mobile experience. From cutting-edge flagship models to budget-friendly options, our diverse inventory caters to all preferences and needs. Whether you\'re in search of a protective case, wireless charger, or screen protector, our curated collection of accessories is designed to complement your lifestyle and elevate your device\'s functionality. Our knowledgeable staff are dedicated to assisting you in finding the perfect phone and accessories, ensuring you leave with products that suit your style and tech requirements.',
       icon: IconDeviceMobile,
     },
     {
       title: 'Repair',
       description:
-        'People say it can run at the same speed as lightning striking, Its icy body is so cold, it will not melt even if it is immersed in magma',
+        'Welcome to our premier phone repair service, where we specialize in bringing your mobile devices back to life with precision and care. Our skilled technicians are equipped to handle a wide range of issues, from cracked screens and battery replacements to more complex software glitches and hardware malfunctions. We understand the importance of your phone in your daily life, which is why we\'re committed to providing quick, reliable, and affordable repair solutions. Using only high-quality parts and the latest repair techniques, we ensure your device returns to you in top-notch condition. Trust us to restore your phone\'s performance and extend its lifespan, all while offering exceptional customer service and support.',
       icon: IconHammer,
     },
     {
       title: 'Sim Activation',
-      description:
-        'They’re popular, but they’re rare. Trainers who show them off recklessly may be targeted by thieves',
+      description: 'At our store, we offer a hassle-free SIM activation service that seamlessly connects you to your network of choice. Whether you\'re switching to a new carrier or activating a new phone, our expert team is here to guide you through the process, ensuring a smooth transition. We handle everything from selecting the right plan to fit your needs, to configuring your device settings for optimal performance. Our goal is to get you up and running with your mobile service quickly and efficiently, so you can stay connected with what matters most.',
       icon: IconDeviceSim,
     },
   ];
@@ -101,8 +100,7 @@ import {
         </Title>
   
         <Text color="dimmed" className={classes.description} align="center" mt="md">
-          Every once in a while, you’ll see a Golbat that’s missing some fangs. This happens when
-          hunger drives it to try biting a Steel-type Pokémon.
+          Look no further for quality repair, accessories, and sim activation.
         </Text>
   
         <SimpleGrid cols={3} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>

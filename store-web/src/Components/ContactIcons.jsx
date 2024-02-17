@@ -64,9 +64,9 @@ function ContactIcon({
 
 const MOCKDATA = [
   { title: 'Email', description: 'worldwholesale1@aol.com', icon: IconAt },
-  { title: 'Phone', description: '+49 (800) 335 35 35', icon: IconPhone },
-  { title: 'Address', description: '844 Morris Park avenue', icon: IconMapPin },
-  { title: 'Working hours', description: '8 a.m. – 11 p.m.', icon: IconSun },
+  { title: 'Phone', description: '+1 713-784-4786', icon: IconPhone },
+  { title: 'Address', description: '5718 Fondren Rd, Houston, TX 77036', icon: IconMapPin },
+  { title: 'Working hours', description: '9 a.m. – 5 p.m.', icon: IconSun },
 ];
 
 export function ContactIconsList({ data = MOCKDATA, variant }) {

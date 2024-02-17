@@ -6,8 +6,8 @@ const useStyles = createStyles((theme) => ({
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundImage: `linear-gradient(250deg, rgba(130, 201, 30, 0) 0%, #062343 70%), url(${background})`,
-    paddingTop: theme.spacing.xl * 3,
-    paddingBottom: theme.spacing.xl * 3,
+    paddingTop: theme.spacing.xl * 5,
+    paddingBottom: theme.spacing.xl * 5,
   },
 
   inner: {
@@ -59,7 +59,9 @@ const useStyles = createStyles((theme) => ({
       maxWidth: '100%',
     },
   },
-
+  buttonClass:{
+    paddingBottom: '30px'
+  },
   control: {
     paddingLeft: 50,
     paddingRight: 50,
@@ -97,16 +99,16 @@ export function HeroHeader() {
               than 100 customizable components and hooks to cover you in any situation
             </Text>
 
-            <Button
-              variant="gradient"
-              gradient={{ from: 'pink', to: 'yellow' }}
-              size="xl"
-              className={classes.control}
-              mt={40}
-              href = "/About"
-            >
-              Get started
-            </Button>
+            <a href="/About">
+              <Button
+                variant="gradient"
+                gradient={{ from: 'pink', to: 'yellow' }}
+                size="xl"
+                className={classes.control}
+                mt={60}
+                href = "/About"
+              >Get Started</Button>
+            </a>
           </div>
         </div>
       </Container>

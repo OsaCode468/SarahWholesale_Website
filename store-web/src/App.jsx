@@ -5,6 +5,7 @@ import Contact from './Components/Contact';
 import BusinessHours from './Components/BusinessHours';
 import About from './Components/About'
 import Home from './Components/Home'
+import Products from './Components/Products';
 import {Routes, Route} from "react-router-dom"
 import Header1 from './Components/Header';
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path = "/About" element = {<About/>}/>
       <Route path = "/Services" element = {<Services/>}/>
       <Route path = "/Contact" element = {<Contact/>}/>
+      <Route path = "/Products" element = {<Products/>}/>
     </Routes>
     <FooterCentered/>
     </>

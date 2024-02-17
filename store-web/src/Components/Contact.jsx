@@ -15,7 +15,7 @@ import {
   import { FooterCentered } from './Footer';
 
   const useStyles = createStyles((theme) => ({
-    wrapper: {
+    wrapper: {      
       minHeight: 400,
       boxSizing: 'border-box',
       backgroundImage: `linear-gradient(-60deg, ${theme.colors[theme.primaryColor][4]} 0%, ${
@@ -76,6 +76,10 @@ import {
     control: {
       backgroundColor: theme.colors[theme.primaryColor][6],
     },
+    page: {
+      display: 'flex',
+
+    }
   }));
   
   const social = [IconBrandTwitter, IconBrandYoutube, IconBrandInstagram];
@@ -84,13 +88,13 @@ import {
     const { classes } = useStyles();
   
     const icons = social.map((Icon, index) => (
-      <ActionIcon key={index} size={28} className={classes.social} variant="transparent">
+      <ActionIcon key={index} size={28} className={classes.social} variant="transparent" >
         <Icon size={22} stroke={1.5} />
       </ActionIcon>
     ));
   
     return (
-      <>
+      <div className = {classes.page}> 
       <div className={classes.wrapper}>
         <SimpleGrid cols={2} spacing={50} breakpoints={[{ maxWidth: 'sm', cols: 1 }]}>
           <div>
@@ -101,9 +105,9 @@ import {
   
             <ContactIcons variant="white" />
   
-            <Group mt="xl">{icons}</Group>
+            <Group mt="xl"></Group>
           </div>
-          <div className={classes.form}>
+          {/* <form className={classes.form}>
             <TextInput
               label="Email"
               placeholder="your@email.com"
@@ -128,9 +132,9 @@ import {
             <Group position="right" mt="md">
               <Button className={classes.control}>Send message</Button>
             </Group>
-          </div>
+          </form> */}
         </SimpleGrid>
       </div>
-      </>
+      </div>
     );
   }

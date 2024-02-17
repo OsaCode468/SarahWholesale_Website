@@ -7,6 +7,7 @@ export const links = [
     text: "Home",
     hrf: "#Home"
   },
+
   {
     id: 2,
     url: "/FAQ",
@@ -30,9 +31,23 @@ export const links = [
     url: "/Contact",
     text: "Contact",
     hrf: "#Contact"
+  },
+  {
+    id: 6,
+    url: "/Products",
+    text: "Products",
+    hrf: "#Products"
   }
 ];
+export const productData = [
+  {
+    id: 1,
+    imageUrl: "https://i.ebayimg.com/images/g/rZYAAOSwBGRioJyH/s-l1600.jpg",
+    title: "LCD Part",
+    description: "An LCD part Replacement"
 
+  }
+]
 /*export const social = [
   {
     id: 1,

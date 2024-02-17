@@ -12,7 +12,6 @@ function Home() {
     return (
       <>
       <HeroHeader/>
-      <Testimonials/>
       <BusinessHours/>
       <ContactHome/>
       </>
