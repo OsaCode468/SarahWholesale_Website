@@ -8,12 +8,12 @@ export const links = [
     hrf: "#Home"
   },
 
-  {
-    id: 2,
-    url: "/FAQ",
-    text: "FAQ",
-    hrf: "#FAQ"
-  },
+  // {
+  //   id: 2,
+  //   url: "/FAQ",
+  //   text: "FAQ",
+  //   hrf: "#FAQ"
+  // },
   {
     id: 3,
     url: "/About",
